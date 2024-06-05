@@ -34,6 +34,19 @@ import 'package:all_widget/Widget/ChoiceChip.dart';
 import 'package:all_widget/Widget/CircleAvatar.dart';
 import 'package:all_widget/Widget/ClipOval.dart';
 import 'package:all_widget/Widget/ClipPath.dart';
+import 'package:all_widget/Widget/ClipRRect.dart';
+import 'package:all_widget/Widget/ClipRect.dart';
+import 'package:all_widget/Widget/CloseButton.dart';
+import 'package:all_widget/Widget/ColorFilteres.dart';
+import 'package:all_widget/Widget/ColorredBox.dart';
+import 'package:all_widget/Widget/CupertinoActionSheetAction.dart';
+import 'package:all_widget/Widget/CupertinoActivityInducator.dart';
+import 'package:all_widget/Widget/CupertinoAlertDialog.dart';
+import 'package:all_widget/Widget/CupertinoButton.dart';
+import 'package:all_widget/Widget/CupertinoContextMenu.dart';
+import 'package:all_widget/Widget/CupertinoPageScaffold.dart';
+import 'package:all_widget/Widget/CupertinodatePicker.dart';
+import 'package:all_widget/Widget/CuppertinoPageRoute.dart';
 import 'package:all_widget/Widget/builder.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +54,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ClipPathWidget(),
+      home: CupertinoPageScaffoldWidget(),
     ),
   );
 }
