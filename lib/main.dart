@@ -61,6 +61,12 @@ import 'package:all_widget/Widget/CustomPaint.dart';
 import 'package:all_widget/Widget/CustomScrollView.dart';
 import 'package:all_widget/Widget/DataColumn.dart';
 import 'package:all_widget/Widget/DataTable.dart';
+import 'package:all_widget/Widget/DatePicker.dart';
+import 'package:all_widget/Widget/DateRangePicker.dart';
+import 'package:all_widget/Widget/DecoratedBoxTransition.dart';
+import 'package:all_widget/Widget/DecoretedBox.dart';
+import 'package:all_widget/Widget/DefultTextStyle.dart';
+import 'package:all_widget/Widget/TimePicker.dart';
 import 'package:all_widget/Widget/builder.dart';
 import 'package:flutter/material.dart';
 
@@ -68,7 +74,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DataColumnWidget(),
+      home: DefultTextStlieWidget(),
     ),
   );
 }
