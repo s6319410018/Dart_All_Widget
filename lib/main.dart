@@ -45,6 +45,14 @@ import 'package:all_widget/Widget/CupertinoAlertDialog.dart';
 import 'package:all_widget/Widget/CupertinoButton.dart';
 import 'package:all_widget/Widget/CupertinoContextMenu.dart';
 import 'package:all_widget/Widget/CupertinoPageScaffold.dart';
+import 'package:all_widget/Widget/CupertinoPicker.dart';
+import 'package:all_widget/Widget/CupertinoPopupSerFace.dart';
+import 'package:all_widget/Widget/CupertinoScrollBar.dart';
+import 'package:all_widget/Widget/CupertinoSearchTextField.dart';
+import 'package:all_widget/Widget/CupertinoSegmentedControl.dart';
+import 'package:all_widget/Widget/CupertinoSlider.dart';
+import 'package:all_widget/Widget/CupertinoSlidingSegmentesControl.dart';
+import 'package:all_widget/Widget/CupertinoSwitch.dart';
 import 'package:all_widget/Widget/CupertinodatePicker.dart';
 import 'package:all_widget/Widget/CuppertinoPageRoute.dart';
 import 'package:all_widget/Widget/builder.dart';
@@ -54,7 +62,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoPageScaffoldWidget(),
+      home: CupertinoSwitchWidget(),
     ),
   );
 }
