@@ -53,8 +53,14 @@ import 'package:all_widget/Widget/CupertinoSegmentedControl.dart';
 import 'package:all_widget/Widget/CupertinoSlider.dart';
 import 'package:all_widget/Widget/CupertinoSlidingSegmentesControl.dart';
 import 'package:all_widget/Widget/CupertinoSwitch.dart';
+import 'package:all_widget/Widget/CupertinoTabScaffold.dart';
+import 'package:all_widget/Widget/CupertinoTextfield.dart';
 import 'package:all_widget/Widget/CupertinodatePicker.dart';
 import 'package:all_widget/Widget/CuppertinoPageRoute.dart';
+import 'package:all_widget/Widget/CustomPaint.dart';
+import 'package:all_widget/Widget/CustomScrollView.dart';
+import 'package:all_widget/Widget/DataColumn.dart';
+import 'package:all_widget/Widget/DataTable.dart';
 import 'package:all_widget/Widget/builder.dart';
 import 'package:flutter/material.dart';
 
@@ -62,7 +68,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoSwitchWidget(),
+      home: DataColumnWidget(),
     ),
   );
 }
